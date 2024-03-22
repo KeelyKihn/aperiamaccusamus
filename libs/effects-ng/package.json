@@ -1,0 +1,41 @@
+{
+  "name": "@ngneat/effects-ng",
+  "version": "2.0.0",
+  "description": "A framework-agnostic RxJS effects implementation",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/ngneat/effects/issues"
+  },
+  "homepage": "https://github.com/ngneat/effects#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngneat/effects"
+  },
+  "keywords": [
+    "rxjs",
+    "state management",
+    "reactive state management",
+    "js state management",
+    "rxjs effects",
+    "actions",
+    "angular effects",
+    "effects"
+  ],
+  "author": {
+    "name": "Netanel Basal",
+    "email": "netanel7799@gmail.com",
+    "url": "https://netbasal.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "*",
+    "@ngneat/effects": "*",
+    "ts-action": "11.0.0",
+    "ts-action-operators": "9.1.2"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=13.0.0"
+  }
+}
